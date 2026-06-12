@@ -1,2 +1,2 @@
 # Plataforma-de-cursos-online-
-Proyecto académico de un Sistema de Control de Inventario. Fase 1: propuesta, diseño, arquitectura y modelo de datos.
+Desarrollo de una plataforma de cursos online que permita a los estudiantes acceder a contenido educativo y a los administradores gestionar cursos, usuarios y materiales de aprendizaje.
