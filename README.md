@@ -43,6 +43,39 @@ Arquitectura en capas:
 - Persistencia (JPA)
 - Base de datos PostgreSQL
 
+  ## Modelo de Datos
+
+### Usuario
+- id
+- nombre
+- correo
+- contraseña
+- rol (DOCENTE, ALUMNO)
+
+### Curso
+- id
+- titulo
+- descripcion
+- docente_id
+
+### Leccion
+- id
+- titulo
+- contenido
+- curso_id
+
+### Inscripcion
+- id
+- usuario_id
+- curso_id
+- progreso
+
+### Certificado
+- id
+- usuario_id
+- curso_id
+- fecha_emision
+
 ## Repositorio
 
 Repositorio GitHub del proyecto académico.
