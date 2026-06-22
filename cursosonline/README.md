@@ -2,23 +2,23 @@
 
 ## Descripción
 
-Aplicación web donde docentes publican cursos con lecciones y los alumnos se inscriben, avanzan en su progreso y obtienen certificados al completar el 100% del curso.
+Aplicación web desarrollada con Spring Boot que permite a los docentes crear cursos y administrar lecciones, mientras que los alumnos pueden inscribirse, seguir su progreso y obtener certificados al completar un curso.
 
 ## Integrantes
 
-* Nombre 1
-* Nombre 2
-* Nombre 3
-* Nombre 4
+* Stefanny Llivisaca Sosa 
+* Karely Baque Zorrilla 
+* Jeremy Bohorquez Gonzalez
 
 ## Tecnologías
 
 * Java 21
-* Spring Boot 4
+* Spring Boot 3
 * Spring Security
 * Spring Data JPA
-* Thymeleaf
 * PostgreSQL
+* Thymeleaf
+* Maven
 
 ## Funcionalidades
 
@@ -35,6 +35,15 @@ Aplicación web donde docentes publican cursos con lecciones y los alumnos se in
 * Inscripción a cursos
 * Seguimiento de progreso
 * Obtención de certificados
+
+## Entidades principales
+
+* Usuario
+* Curso
+* Lección
+* Inscripción
+* ProgresoLección
+* Certificado
 
 ## Estado
 
