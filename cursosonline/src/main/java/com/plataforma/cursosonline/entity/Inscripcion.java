@@ -64,3 +64,5 @@ public class Inscripcion {
         this.fechaInscripcion = fechaInscripcion;
     }
 }
+
+
